@@ -1,0 +1,7 @@
+[
+  {
+    "name": "people",
+    "params": {"title": "name", "desc": "gender"},
+    "id": 1
+  }
+]
