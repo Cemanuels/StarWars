@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 
 import { Container, ModalContent, BackgroundModal, Lottie } from './styles';
-
+import image from '../../assets/images/background.jpg';
 import { Modal } from 'react-native';
+import { ImageBackground } from '../../config/generalStyles';
 
 interface LoadingProps {
   visible: boolean;
@@ -10,7 +11,7 @@ interface LoadingProps {
 
 const Loading: React.FC<LoadingProps> = ({ visible }) => {
   return (
-    <Container>
+    <Container style = {{backgroundColor: 'transparent'}}>
       <Modal transparent={true} animationType="fade" visible={visible}>
         <ModalContent>
           <BackgroundModal>

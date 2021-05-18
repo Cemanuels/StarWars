@@ -6,3 +6,8 @@ export const Container = styled.View`
   background: ${colors.primary};
   padding: 0 24px;
 `;
+
+export const ImageBackground = styled.ImageBackground`
+  flex: 1;
+  justify-content: center;
+`;

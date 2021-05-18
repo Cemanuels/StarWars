@@ -1,6 +1,5 @@
 import typography from '../../config/typography';
 import styled from 'styled-components/native';
-import colors from '../../config/colors';
 
 export const Center = styled.View`
   flex: 1;
@@ -20,3 +19,12 @@ export const Description = styled.Text`
   text-align: center;
   margin: 24px 0;
 `;
+
+export const ImageBackground = styled.ImageBackground`
+  flex: 1;
+  justify-content: center;
+`;
+
+export const ImageContainer = styled.View`
+  flex: 1;
+`

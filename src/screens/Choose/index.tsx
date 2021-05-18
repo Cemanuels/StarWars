@@ -4,9 +4,8 @@ import {Header} from 'react-native-elements';
 import {Actions} from 'react-native-router-flux';
 
 import {Logo, Wrap, List, ButtonBack} from './styles';
-import Icon from 'react-native-vector-icons/FontAwesome5'
-
-import {Container} from '../../config/generalStyles';
+import Icon from 'react-native-vector-icons/FontAwesome5';
+import {Container, ImageBackground} from '../../config/generalStyles';
 import colors from '../../config/colors';
 import {CardSelect} from '../../components/CardSelect';
 
